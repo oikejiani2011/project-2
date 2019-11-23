@@ -1,0 +1,228 @@
+*{
+    box-sizing:border-box;
+  }
+  
+  
+  body{
+    background-color:#F5F5F5;
+    font-family: 'Open Sans', sans-serif;
+    color: slategray;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color:black;
+  }
+  
+  .up-name {
+        text-align: center;
+        color:black;
+  }
+  .up-ul-nav {
+    text-align: center;
+    color:black;
+  }
+  
+  .up-ul-nav,
+  .up-ul-nav li {
+    width: 94%;
+    margin: 0 10px 0 10px;
+  }
+  
+  .up-ul-nav li {
+    padding: 10px 0;
+    margin: 4.5px auto;
+    text-transform: uppercase;
+    background-color: rgb(250, 250, 250);
+   
+  
+  }
+  
+
+  /*layout*/
+  
+  
+    .main-content,img {
+      padding:10px;
+      width:100%;
+    }
+    .main-content h2,
+    .main-content h3,
+    .main-content p{
+      text-align: center;
+      padding:0 10px 0px 10px;
+  
+    }
+    #first-paragraph {
+      padding:5px 35px 0 35px;
+      line-height: 1.8rem;
+    }
+  
+  .profile-picture {
+    width:80%;
+  
+    margin:0 40px 0 40px;
+  }
+  
+  .portfolio-contain{
+    background-color:#ffffff;
+    margin:30px 0 30px 0;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+  
+  }
+  .portfolio-contain p{
+    line-height:30px;
+  }
+  .up-nav ul, li{
+    display: inline-block;
+  
+  }
+
+  .bottom-nav,
+  .main-footer h3{
+    display:inline-block;
+    margin-left: 5px;
+  }
+  .main-footer ul{
+    margin-left:200px;
+    border-bottom: 2px;
+    display:inline-flex;
+  }
+  
+  .first-paragraph{
+    width:80%;
+    padding:1.5%;
+    text-align: center;
+    margin:35px 75px 20px 35px;
+  }
+  
+  
+  
+  @media (min-width:768px) {
+  .up-ul-nav ul{
+    text-align: center;
+    margin-bottom: auto;
+  
+  }  
+  
+  
+  .up-ul-nav li {
+    display: inline-block;
+    width:20%;
+  
+  }
+  
+  .profile-picture {
+    display:inline-block;
+    margin-left: auto;
+    margin-right:3.8%;
+    margin-top:1.9%;
+    width:35%;
+    float:right;
+  
+  }
+  .portfolio-contain {
+    background-color: #ffffff;
+    display:inline-block;
+    width:95%;
+    margin:10px 20px 10px 20px;
+    padding:4%;
+  }
+  
+  .picture-one,
+  .picture-three,
+  .picture-five {
+    display: inline-block;
+    width:50%;
+  float:left;
+  }
+  
+  .picture-two,
+  .picture-four,
+  .picture-six{
+    display:inline-block;
+    width:50%;
+    float:right;
+  }
+  
+  .first-paragraph {
+    width:50%;
+    text-align:left;
+    margin:20px 20px 20px 20px;
+    display: inline-block;
+    font-size:1.2rem;
+  }
+
+}
+
+  
+  @media(min-width:1024px) {
+  .up-name{
+    display:inline-block;
+    float:left;
+    margin:3.5%;
+    margin-left: 4%;
+  }
+  .up-ul-nav {
+    display:inline-block;
+    float:right;
+    width:60%;
+    margin:2.5%;
+    margin-right: -7%;
+  }
+  .profile-picture {
+    display:inline-block;
+    width:40%;
+    float:right;
+    margin-right:4%;
+  }
+  .first-paragraph {
+  text-align:left;
+  display:inline-block;
+  float:left;
+  width:40%;
+  line-height: 30px;
+  margin:25px 0 35px 25px;
+  font-size: 1.4rem;
+  margin-left: 2.4%;
+  }
+  .picture-one,
+  .picture-two,
+  .picture-three,
+  .picture-four,
+  .picture-five,
+  .picture-six {
+    width:33%;
+  }
+  .bottom-nav {
+    float:right;
+    margin-right:5%;
+    margin-top: .2%;
+  }
+  hr {
+    width:92%;
+  }
+  
+  .main-footer h3 {
+    margin-left:5%;
+  
+  }
+  
+  }
+
+  /*layout*/
+  
+  
+  
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
