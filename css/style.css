@@ -102,8 +102,20 @@
     margin:35px 75px 20px 35px;
   }
   
+  .bottom-nav .nav-elements{
+    display: none;
+    padding: 10px 0;
+  }
+
+  .bottom-nav {
+    float:right;
+    margin-right:5%;
+    margin-top: .2%;
+  }
   
-  
+  .bottom-nav li {
+    margin-top: 2%;
+  }
   @media (min-width:768px) {
   .up-ul-nav ul{
     text-align: center;
@@ -159,6 +171,22 @@
     font-size:1.2rem;
   }
 
+  .bottom-nav .other-elements{
+    display: none;
+  }
+
+  .bottom-nav .nav-elements{
+    display: inline-block;
+}
+
+.bottom-nav {
+  float:right;
+  margin-right:5%;
+  margin-top: 0.05%;
+  } 
+
+  .bottom-nav li {
+    margin: 0 8px 0 8px;
 }
 
   
@@ -203,7 +231,7 @@
   .bottom-nav {
     float:right;
     margin-right:5%;
-    margin-top: .2%;
+    
   }
   hr {
     width:92%;
@@ -214,6 +242,17 @@
   
   }
   
+  .bottom-nav .other-elements{
+    display: none;
+  }
+
+  .bottom-nav .nav-elements{
+    display: inline-block;
+    padding: 10px 0;
+  }
+  .bottom-nav li {
+    margin: 0 10px 0 10px;
+  }
   }
 
   /*layout*/
