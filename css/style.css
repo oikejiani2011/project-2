@@ -41,8 +41,6 @@
     margin: 4.5px auto;
     text-transform: uppercase;
     
-   
-  
   }
 
   
@@ -61,6 +59,7 @@
       padding:0 10px 0px 10px;
   
     }
+
     #intro-paragraph {
       padding:5px 35px 0 35px;
       line-height: 1.8rem;
@@ -91,9 +90,9 @@
   .main-footer h3{
     display:inline-block;
     margin-left: 5px;
+    font-size: 1.1em;
   }
-  .main-footer ul{
-    margin-left:200px;
+  .main-footer ul {
     border-bottom: 2px;
     display:inline-flex;
   }
@@ -107,7 +106,6 @@
   
   .bottom-nav .nav-elements{
     display: none;
-    padding: 10px 0;
   }
 
   .bottom-nav {
@@ -116,9 +114,7 @@
     margin-top: .2%;
   }
   
-  .bottom-nav li {
-    margin-top: 2%;
-  }
+  
 
   .content-start p{
     line-height: 2rem;
@@ -189,11 +185,16 @@
 .bottom-nav {
   float:right;
   margin-right:5%;
-  margin-top: 0.05%;
+  
   } 
 
   .bottom-nav li {
-    margin: 0 8px 0 8px;
+    margin: 0 10px 0 10px;
+  }
+  .main-content p{
+    font-size: 0.8em;;
+  }
+
 }
 
   
@@ -255,7 +256,7 @@
 
   .bottom-nav .nav-elements{
     display: inline-block;
-    padding: 10px 0;
+   
   }
   .bottom-nav li {
     margin: 0 10px 0 10px;
