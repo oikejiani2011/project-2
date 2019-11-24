@@ -2,6 +2,7 @@
 
 *{
     box-sizing:border-box;
+    border:100%;
   }
   
   
@@ -54,12 +55,17 @@
       padding:10px;
       width:100%;
     }
-    .main-content h2,
+
     .main-content h3,
     .main-content p{
       text-align: center;
       padding:0 10px 0px 10px;
   
+    }
+
+    .main-content h2 {
+      padding:0 10px 0px 10px;
+      text-align: center;
     }
 
     #intro-paragraph {
@@ -69,7 +75,6 @@
   
   .profile-picture {
     width:80%;
-  
     margin:0 40px 0 40px;
   }
   
@@ -81,7 +86,7 @@
   
   }
   .portfolio-contain p {
-    line-height:30px;
+    line-height:20px;
   }
   .up-nav ul, li{
     display: inline-block;
@@ -120,6 +125,8 @@
 
   .content-start p{
     line-height: 2rem;
+    padding-left: 4%;
+    text-align: center;
   }
   @media (min-width:768px) {
   .up-ul-nav ul{
@@ -196,7 +203,11 @@
   .main-content p{
     font-size: 0.8em;;
   }
-
+  .content-start p{
+    line-height: 2rem;
+    padding-left: 4%;
+    text-align: left;
+  }
 }
 
   
@@ -218,7 +229,7 @@
     display:inline-block;
     width:40%;
     float:right;
-    margin-right:4%;
+    margin-right:6%;
   }
   .first-paragraph {
   text-align:left;
@@ -236,7 +247,8 @@
   .picture-four,
   .picture-five,
   .picture-six {
-    width:33%;
+    width:33.3%;
+    display:inline-block;
   }
   .bottom-nav {
     float:right;
@@ -263,6 +275,17 @@
   .bottom-nav li {
     margin: 0 10px 0 10px;
   }
+
+  .content-start p{
+    line-height: 2rem;
+    padding-left: 4%;
+    text-align: left;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+  
   }
 
   /*layout*/
