@@ -296,24 +296,34 @@
   
   form {
     padding-right: 8px;
+    
 
     /* Fixed small sizing issue on the right */
   }
   
   form label {
     display: block;
+    align-content: center;
   }
   
   form input, 
   form textarea {
-    width: 50%;
+    width: 80%;
+    margin-left: 80px ;
     margin-bottom: 20px;
+    align-content: center;
+    
   }
   
   form textarea {
     height: 160px;
+    
   }
   
+  group{ 
+    
+    padding-left: 8px; 
+   }
   
   .clearfix::after {
     content: "";
