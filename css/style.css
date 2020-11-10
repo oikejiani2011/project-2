@@ -330,3 +330,7 @@
     clear: both;
     display: table;
   }
+
+  about{
+    text-align: center;
+  }
